@@ -1,4 +1,4 @@
-# System pre-setup
+# System Git pre-setup
 
 > thegurpreet | March 2021
 
