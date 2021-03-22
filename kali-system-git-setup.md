@@ -54,3 +54,8 @@ Pushing files to GitHub repository
 ```
 git push origin main
 ```
+
+Repeated commands
+```
+git add . && git commit -m 'git setup updated' && git push
+```
