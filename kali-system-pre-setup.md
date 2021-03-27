@@ -4,18 +4,21 @@
 
 ---
 ## 1. Install Terminator
+
 Install Package
 ```
 sudo apt-get install terminator
 ```
 
 ## 2. Install Gobustor
+
 Install Package
 ```
 sudo apt install gobuster
 ```
 
 ## 3. Install SublimeText
+
 Ensure apt is set up to work with https sources
 ```
 sudo apt-get install apt-transport-https
@@ -49,3 +52,32 @@ Run Markdown Preview in Browser
 ```
 Tools > Command Palette > Markdown Preview in Browser
 ```
+
+## 4. Install seclists
+
+Install Package
+```
+sudo apt-get install seclists
+```
+
+## 5. Install exiftool
+
+Install Package
+```
+sudo apt-get install exiftool
+```
+
+## 6. Install steghide
+
+Install Package
+```
+sudo apt-get install steghide
+```
+
+## 7. Install stegcracker
+
+Install Package
+```
+sudo apt-get install stegcracker
+```
+
