@@ -2,7 +2,7 @@
 
 > thegurpreet | Mar 2021
 
-##Enumeration
+## Enumeration
 
 Setting ip variable
 ```
@@ -15,7 +15,7 @@ Scanning ports using nmap. Found FTP, SSH and HTTP port open
 sudo nmap -sV -sC $ip
 ```
 
-##First way to access of box
+## First way to access of box
 
 As per NMAP result above user is ftp and anonymous login is allowed
 ```
@@ -61,7 +61,7 @@ Root access!!
 
 
 
-##Second way to access of box
+## Second way to access of box
 
 Crack passphrase using stegcracker
 ```
