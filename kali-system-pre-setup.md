@@ -25,8 +25,7 @@ sudo apt-get install apt-transport-https
 ```
 Install the GPG key:
 ```
-sudo wget https://download.sublimetext.com/sublimehq-pub.gpg > sublimehq-pub.gpg
-sudo mv sublimehq-pub.gpg /etc/apt/trusted.gpg.d/
+wget -O- https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/sublimehq-archive-keyring.gpg
 ```
 Select the channel to use:
 
@@ -41,7 +40,7 @@ echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/source
 
 Update apt sources and install Sublime Text
 ```
-sudo apt-get install sublime
+sudo apt-get install sublime-text
 ```
 Install Markdown Preview
 ```
@@ -79,5 +78,12 @@ sudo apt-get install steghide
 Install Package
 ```
 sudo apt-get install stegcracker
+```
+
+## 8. Download linpeas
+
+Download script
+```
+curl https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scripts-suite/master/linPEAS/linpeas.sh > /opt/linpeas.sh
 ```
 
